@@ -1,0 +1,49 @@
+{
+	"name": "SVG Imagemap",
+
+	"namespace": "UIOWA\\SvgMap",
+
+	"description": "Allows complex image maps (linked to existing multiple choice fields) using the SVG format to be embedded in REDCap forms",
+
+	"documentation": "README.md",
+
+	"authors": [
+		{
+			"name": "Isabelle Neuhaus",
+			"email": "isabelle-neuhaus@uiowa.edu",
+			"institution": "University of Iowa Institute for Clinical and Translational Science"
+		}
+	],
+
+	"permissions": [
+		"redcap_data_entry_form",
+		"redcap_survey_page"
+	],
+
+	"project-settings": [
+		{
+			"key": "svg-map-config",
+			"name": "Configure SVG Imagemap",
+			"required": false,
+			"type": "sub_settings",
+			"repeatable":true,
+			"sub_settings":[
+				{
+					"key": "svg-file",
+					"name": "SVG file to embed",
+					"type": "file"
+				},
+				{
+					"key": "svg-embed-field",
+					"name": "Descriptive field to replace with SVG",
+					"type": "field-list"
+				},
+				{
+					"key": "svg-choice-field",
+					"name": "Dropdown/Radio/Checkbox field to link with SVG map",
+					"type": "field-list"
+				}
+			]
+		}
+	]
+}

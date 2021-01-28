@@ -1,0 +1,43 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css">
+        a:hover path {
+            stroke-width: 5px;
+            stroke: gray;
+        }
+        .selected.selected-show, .selected .selected-show {
+            display: block;
+        }
+        .selected-show {
+            display: none;
+        }
+    </style>
+    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+    <a xlink:href="" data-rc-choice="1">
+        <path transform="rotate(-17.335899353027344 371.34039306640625,107.20310211181642) " id="svg_1" d="m288.1825,88.5539l63.52744,0l19.63047,-60.3508l19.63048,60.3508l63.52743,0l-51.39469,37.29842l19.63148,60.3508l-51.39471,-37.29943l-51.3947,37.29943l19.63149,-60.3508l-51.3947,-37.29842z" stroke-width="1.5" stroke="#000" fill="#00ffff"/>
+        <text class="selected-show" font-style="normal" font-weight="normal" transform="rotate(72.66410064697266 377.1936645507812,115.6390991210938) " xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="35" id="svg_14" y="127.6391" x="356.27959" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">= )</text>
+    </a>
+    <a xlink:href="" data-rc-choice="2">
+        <path transform="rotate(-41.472164154052734 99.34041595458986,99.20310974121094) " id="svg_16" d="m16.1825,80.5539l63.52744,0l19.63047,-60.3508l19.63048,60.3508l63.52743,0l-51.39468,37.29842l19.63148,60.35079l-51.39471,-37.29943l-51.3947,37.29943l19.63149,-60.35079l-51.3947,-37.29842z" stroke-width="1.5" stroke="#000" fill="#ea4944"/>
+        <text class="selected-show" font-style="normal" font-weight="normal" transform="rotate(48.527835845947266 108.13147735595703,104.50815582275389) " xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="35" id="svg_17" y="116.50816" x="87.21742" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">= )</text>
+    </a>
+    <a xlink:href="" data-rc-choice="3">
+        <path transform="rotate(29.65414810180664 104.34041595458977,277.20309448242193) " id="svg_19" d="m21.1825,258.5539l63.52744,0l19.63047,-60.3508l19.63048,60.3508l63.52743,0l-51.39468,37.29842l19.63148,60.35079l-51.39471,-37.29943l-51.3947,37.29943l19.63149,-60.35079l-51.3947,-37.29842z" stroke-width="1.5" stroke="#000" fill="#00ff00"/>
+        <text class="selected-show" font-style="normal" font-weight="normal" transform="rotate(119.65414428710938 102.16438293457031,287.23760986328125) " xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="35" id="svg_20" y="299.2376" x="81.25032" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">= )</text>
+    </a>
+    <a xlink:href="" data-rc-choice="4">
+        <path transform="rotate(19.114391326904297 401.3403930664062,272.8031005859375) " stroke="#000" id="svg_22" d="m306.1825,251.46275l72.69469,0l22.46322,-69.05965l22.46323,69.05965l72.69468,0l-58.81113,42.68072l22.46438,69.05964l-58.81116,-42.68188l-58.81115,42.68188l22.46439,-69.05964l-58.81115,-42.68072z" stroke-width="1.5" fill="#ff00ff"/>
+        <text class="selected-show" stroke="#000" font-style="normal" font-weight="normal" transform="rotate(19.114391326904297 401.7347717285158,284.8018493652345) matrix(0,1.144303798675537,-1.138291114486918,0,712.4204209850783,-129.84236602857712) " xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="35" id="svg_23" y="285.20657" x="341.44317" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">= )</text>
+    </a>
+    <a xlink:href="" data-rc-choice="5" class="selected-show">
+        <path transform="rotate(25.540939331054688 240.84526062011722,67.7320022583008) " stroke="#000" id="svg_25" d="m195.27591,72.71155l31.59319,-15.75908l-5.20852,-34.88307l24.7336,25.14372l31.59318,-15.75908l-16.30686,31.29843l24.7341,25.14346l-34.81216,-5.80024l-16.30662,31.29893l-5.20801,-34.88332l-34.8119,-5.79974z" stroke-width="1.5" fill="#2366ed"/>
+        <text stroke="#000" transform="rotate(92.04228973388672 243.85351562500003,64.35372161865234) matrix(0.5764359082185386,0,0,0.5764359082185386,116.65483014937156,40.70633626630966) " xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="35" id="svg_40" y="53.16833" x="191.98375" stroke-opacity="null" stroke-width="0" fill="#ffffff">= O</text>
+    </a>
+    <a xlink:href="" data-rc-choice="6">
+        <path transform="rotate(-30.004714965820312 249.63220214843773,323.12289428710943) " stroke="#000" id="svg_31" d="m211.77348,314.63261l28.92169,0l8.93702,-27.47548l8.93703,27.47548l28.92168,0l-23.39809,16.98058l8.93748,27.47547l-23.3981,-16.98104l-23.3981,16.98104l8.93749,-27.47547l-23.3981,-16.98058z" stroke-width="1.5" fill="#000000"/>
+        <text class="selected-show" stroke="#000" font-style="normal" font-weight="normal" transform="rotate(-30.004714965820312 252.67227172851554,326.5127563476563) matrix(0,0.45526284533913697,-0.45526284533913697,0,300.7897409172425,307.3907317365277) " xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="35" id="svg_32" y="116.67616" x="21.09673" stroke-opacity="null" stroke-width="0" fill="#ffffff">= )</text>
+    </a>
+    <a xlink:href="" data-rc-choice="7">
+        <path transform="rotate(-26.510597229003906 242.8404083251953,199.4281005859376) " stroke="#000" id="svg_37" d="m185.1825,186.49759l44.04704,0l13.61087,-41.8445l13.61088,41.8445l44.04703,0l-35.63473,25.86102l13.61157,41.8445l-35.63475,-25.86173l-35.63475,25.86173l13.61159,-41.8445l-35.63475,-25.86102z" stroke-width="1.5" fill="#ffff00"/>
+        <text class="selected-show" stroke="#000" font-style="normal" font-weight="normal" transform="rotate(-26.510597229003906 247.93412780761716,204.47026062011716) matrix(0,0.6933545077837096,-0.6933545077837096,0,401.97602500396533,25.394465546183284) " xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="35" id="svg_38" y="234.42337" x="237.37065" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">= )</text>
+    </a>
+</svg>
