@@ -14,7 +14,7 @@ class SvgMap extends AbstractExternalModule {
 
 	public function svgInit() {
         $jsObject = array(
-            'svgUrl' => $this->getUrl('index.php'),
+            'svgUrl' => $this->getUrl('index.php', true),
             'embedFields' => $this->getProjectSetting('svg-embed-field'),
             'choiceFields' => $this->getProjectSetting('svg-choice-field')
         );
