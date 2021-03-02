@@ -5,13 +5,13 @@ $(document).ready(function() {
         // if embed target field exists on this form, embed SVG
         if ($embedField.length > 0) {
             $embedField
-                .append(`<object
-                    class="svg-map"
-                    svg-index="${index}"
-                    svg-choice-field="${UIOWA_SvgMap.choiceFields[index]}"
-                    data="${UIOWA_SvgMap.svgUrl + '&svg_id=' + index}"
-                    type="image/svg+xml"
-                ></object>`);
+                .append("<object" +
+                    " class='svg-map'" +
+                    " svg-index=" + index +
+                    " svg-choice-field='" + UIOWA_SvgMap.choiceFields[index] + "'" +
+                    " data=" + UIOWA_SvgMap.svgUrl + '&svg_id=' + index +
+                    " type='image/svg+xml'" +
+                "></object>");
         }
     })
 
