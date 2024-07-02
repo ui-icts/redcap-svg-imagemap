@@ -7,10 +7,11 @@
 
   "documentation": "README.md",
 
-  "framework-version": 13,
+  "framework-version": 14,
 
   "versions": {
-    "1.0.5": "Updated EM framework version to 13 and REDCap minimum version to 13.7.3"
+    "1.0.5": "Updated EM framework version to 13 and REDCap minimum version to 13.7.3",
+    "1.0.6": "Updated EM framework version to 14 and REDCap minimum version to 13.7.3"
   },
 
   "compatibility": {
