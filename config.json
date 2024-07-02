@@ -1,62 +1,69 @@
 {
-	"name": "SVG Imagemap",
+  "name": "SVG Imagemap",
 
-	"namespace": "UIOWA\\SvgMap",
+  "namespace": "UIOWA\\SvgMap",
 
-	"description": "Allows complex image maps (linked to existing multiple choice fields) using the SVG format to be embedded in REDCap forms",
+  "description": "Allows complex image maps (linked to existing multiple choice fields) using the SVG format to be embedded in REDCap forms",
 
-	"documentation": "README.md",
+  "documentation": "README.md",
 
-	  "authors": [
-	    {
-	      "name": "Joe Spring",
-	      "email": "redcap@icts.uiowa.edu",
-	      "institution": "University of Iowa Institute for Clinical and Translational Science"
-	    },
-	    {
-	      "name": "Heath Davis",
-	      "email": "redcap@icts.uiowa.edu",
-	      "institution": "University of Iowa Institute for Clinical and Translational Science"
-	    },
-	    {
-	      "name": "Chris Ortman",
-	      "email": "redcap@icts.uiowa.edu",
-	      "institution": "University of Iowa Institute for Clinical and Translational Science"
-	    }
-	  ],
+  "framework-version": 13,
 
-	"permissions": [
-		"redcap_data_entry_form",
-		"redcap_survey_page"
-	],
-	"no-auth-pages": [
-		"index"
-	],
+  "versions": {
+    "1.0.5": "Updated EM framework version to 13 and REDCap minimum version to 13.7.3"
+  },
 
-	"project-settings": [
-		{
-			"key": "svg-map-config",
-			"name": "Configure SVG Imagemap",
-			"required": false,
-			"type": "sub_settings",
-			"repeatable":true,
-			"sub_settings":[
-				{
-					"key": "svg-file",
-					"name": "SVG file to embed",
-					"type": "file"
-				},
-				{
-					"key": "svg-embed-field",
-					"name": "Descriptive field to replace with SVG",
-					"type": "field-list"
-				},
-				{
-					"key": "svg-choice-field",
-					"name": "Dropdown/Radio/Checkbox field to link with SVG map",
-					"type": "field-list"
-				}
-			]
-		}
-	]
+  "compatibility": {
+    "php-version-min": "",
+    "php-version-max": "",
+    "redcap-version-min": "13.7.3",
+    "redcap-version-max": ""
+  },
+
+  "authors": [
+    {
+      "name": "Joe Spring",
+      "email": "redcap@icts.uiowa.edu",
+      "institution": "University of Iowa Institute for Clinical and Translational Science"
+    },
+    {
+      "name": "Heath Davis",
+      "email": "redcap@icts.uiowa.edu",
+      "institution": "University of Iowa Institute for Clinical and Translational Science"
+    },
+    {
+      "name": "Chris Ortman",
+      "email": "redcap@icts.uiowa.edu",
+      "institution": "University of Iowa Institute for Clinical and Translational Science"
+    }
+  ],
+
+  "no-auth-pages": ["index"],
+
+  "project-settings": [
+    {
+      "key": "svg-map-config",
+      "name": "Configure SVG Imagemap",
+      "required": false,
+      "type": "sub_settings",
+      "repeatable": true,
+      "sub_settings": [
+        {
+          "key": "svg-file",
+          "name": "SVG file to embed",
+          "type": "file"
+        },
+        {
+          "key": "svg-embed-field",
+          "name": "Descriptive field to replace with SVG",
+          "type": "field-list"
+        },
+        {
+          "key": "svg-choice-field",
+          "name": "Dropdown/Radio/Checkbox field to link with SVG map",
+          "type": "field-list"
+        }
+      ]
+    }
+  ]
 }
