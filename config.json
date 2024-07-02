@@ -10,7 +10,14 @@
   "framework-version": 13,
 
   "versions": {
-    "1.0.5": "Updated EM framework version and REDCap minimum version"
+    "1.0.5": "Updated EM framework version to 13 and REDCap minimum version to 13.7.3"
+  },
+
+  "compatibility": {
+    "php-version-min": "",
+    "php-version-max": "",
+    "redcap-version-min": "13.7.3",
+    "redcap-version-max": ""
   },
 
   "authors": [
